@@ -1,0 +1,257 @@
+/* Phần 1  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    width: 100%;
+}
+header{
+
+    padding: 30px;
+}
+/* Phần 2 Body- menu  */
+.header-main {
+display: flex;
+
+}
+.img-logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.menu-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    color :aqua;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+li:hover {
+    color: aqua;
+    transition: 0.4s all ease;
+}
+
+li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    transform-origin: bottom right;
+    transition: transform 0.5 ease-out;
+}
+li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Phần 3  */
+
+.banner img{
+        width: 100%;
+    object-fit: cover;
+    aspect-ratio: 7/2;
+}
+all.css
+
+
+.header-main{
+    padding: 0 60px;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ .logo{
+    width: 50px;
+    margin-right: 20px;
+}
+.header-main .menu-main{
+    width: 100%;
+}
+li a:hover {  
+    color: aqua;
+    transition: 0.4s all ease;
+    
+}
+.tong {
+    display: flex;
+}
+.thuml {
+    width: 400px;
+    margin-left: 30px;
+}
+.thuml h2 {
+    color: grey;
+    font-size: 15;
+    margin-left: 70px;
+   
+}
+.thuml h1 {
+    font-size: 30px;
+}
+.thuml p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.thuml h3 {
+    font-size: 18px;
+}
+.anh {
+    display: flex;
+    margin-left: 200px;
+    width: 600px;
+    height: 300px;
+}
+.phan3 h1 {
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 40% 30% ; 
+    padding : 40px ;
+    background-color: rgb(170, 245, 220);
+    width: 500px;
+    margin-left: 400px;
+
+}
+.phan3 table {
+   width: 100px;
+   height: 100px;
+}
+.phan3 img {
+   width: 300px;
+   height: 300px;
+   
+   margin-right: 90px;
+   margin-left: 30px;
+}
+.phan3 tr {
+ 
+   margin-left: 120px;
+   margin-right: 120px;
+}
+img { 
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 9/2;
+}
+.product img {
+    display: flex;
+}
+.anh1 img {
+    width:300px;
+ height:300px;
+ object-fit:cover;
+   margin-right: 90px;
+   margin-left: 30px;
+
+}
+.to {
+    width: 30%;
+    float: left;
+    border: 1px solid red;
+}
+.body1  {
+align-items: center;
+justify-content:space-between;
+
+text-align: center;
+border: 1px solid red;
+}
+
+.anh2 img {
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    margin-right: 90px;
+    margin-left: 30px;
+}
+
+span{
+    color: red;
+}
+
+.body2 {
+align-items: center;
+justify-content:space-between;
+margin-left: 30px;
+text-align: center;
+border: 1px solid red;
+}
+
+
+.anh3 img {
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    margin-right: 90px;
+    margin-left: 30px;
+}
+
+.body3 {
+   
+align-items: center;
+justify-content:space-between;
+margin-left: 30px;
+text-align: center;
+border: 1px solid red;
+}
+.phan4 h1 {
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 40% 30% ; 
+    padding : 50px ;
+    background-color: rgb(170, 245, 220);
+    width: 500px;
+    margin-left: 400px;
+}
+
+.wrapper {
+    width: 85vw;
+    height: 60vmin;
+    display: flex;
+    gap: 5px;
+}
+.wrapper img {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.wrapper img:hover {
+    flex: 4;
+}
+
